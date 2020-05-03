@@ -694,7 +694,8 @@ function ($document, PanZoomService) {
                             zoomOut: zoomOut,
                             zoomToFit: zoomToFit,
                             getViewPosition: getViewPosition,
-                            getModelPosition: getModelPosition
+                            getModelPosition: getModelPosition,
+                            setPanning: pan
                         };
 
         }],
